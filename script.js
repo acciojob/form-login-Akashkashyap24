@@ -7,6 +7,6 @@ function getFormvalue() {
     // Add an event listener to the submit button
     Submit.addEventListener("click", function() {
         // Get the value of the input fields and show them in an alert
-        alert("First Name: " + firstName.value + ", Last Name: " + lastName.value);
+        alert(firstName.value +" "+ lastName.value);
     });
 }
