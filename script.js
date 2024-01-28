@@ -1,9 +1,9 @@
 function getFormvalue() {
-    var firstName = document.getElementById("fname");
+   var firstName = document.getElementById("fname");
     var lastName = document.getElementById("lname");
-	var Submit=document.getElenmentById("submit");
-	Submit.addEventListener("click", myFunction);
-	function myFunction(firstName,lastName) {
-		alert("First Name: " + firstName + ", Last Name: " + lastName);
-	}
+    var Submit = document.getElementById("submit");
+
+    Submit.addEventListener("click", function() {
+        alert("First Name: " + firstName.value + ", Last Name: " + lastName.value);
+    });
 }
